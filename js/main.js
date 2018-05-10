@@ -2,62 +2,62 @@
 var zodiac = [
 {
 	sign: "aquarius",
-	character: "funny",
+	character: "Progressive, Original, Independent, Humanitarian",
 	image: "img/aquarius.png"
 },
 {
 	sign: "aries",
-	character: "funny",
+	character: "Courageous, Determined, Confident, Enthusiastic, Optimistic, Honest, Passionate",
 	image: "img/aries.png"
 },
 {
 	sign: "cancer",
-	character: "funny",
+	character: "Tenacious, Highly Imaginative, Loyal, Emotional, Sympathetic, Persuasive",
 	image: "img/cancer.png"
 },
 {
 	sign: "capricorn",
-	character: "funny",
+	character: "Responsible, Disciplined, has great Self-Control, would be a Great Manager",
 	image: "img/capricorn.png"
 },
 {
 	sign: "gemini",
-	character: "funny",
+	character: "Gentle, Affectionate, Curious, Adaptable, Quick learner",
 	image: "img/gemini.png"
 },
 {
 	sign: "leo",
-	character: "funny",
+	character: "Creative, Passionate, Generous, Warm-Hearted, Humorous",
 	image: "img/leo.png"
 },
 {
 	sign: "libra",
-	character: "funny",
+	character: "Cooperative, Diplomatic, Gracious, Fair-minded, Social",
 	image: "img/libra.png"
 },
 {
 	sign: "pisces",
-	character: "funny",
+	character: "Compassionate, Artistic, Intuitive, Gentle, Wise, Musical",
 	image: "img/pisces.png"
 },
 {
 	sign: "sagittarius",
-	character: "funny",
+	character: "Generous, Idealistic, Humorous",
 	image: "img/sagittarius.png"
 },
 {
 	sign: "scorpio",
-	character: "funny",
+	character: "Resourceful, Brave, Passionate, Stubborn, a great friend",
 	image: "img/scorpio.png"
 },
 {
 	sign: "taurus",
-	character: "funny",
+	character: "Reliable, Patient, Practical, Devoted, Responible, Stable",
 	image: "img/taurus.png"
 },
 {
 	sign: "virgo",
-	character: "funny",
+	character: "Loyal, Analytical, Kind, Hardworking, Practical",
 	image: "img/virgo.png"
 }
 ];
@@ -92,7 +92,7 @@ function getInfo() {
 
 			document.getElementById("zodiac").src = zodiac[i].image;
 			
-			document.getElementById("yourCharacter").textContent = ("Your best attributes are: " + zodiac[i].character);
+			document.getElementById("yourCharacter").textContent = ("These are your strenghts: " + zodiac[i].character);
 
 			return;
 		};
