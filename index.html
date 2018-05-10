@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<!-- title -->
-	<title><!-- Insert Title Here --> </title>
+	<title>Zodiac App.</title>
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
 	<!-- animate.css -->
@@ -13,8 +13,47 @@
 	<!-- custom CSS -->
 	<link rel="stylesheet" href="css/main.css">
 </head>
+
+<!-- BODY STARTS -->
 <body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-8 col-sm-2 col-md-6 col-lg-4 mx-auto">
+				<div>
+					<div class="sign">
+						<body class="bg-light"></body>
+						<h1 class="text-center ml-5">Welcome!</h1>
+						<img src="img/zodiac.png">
+						<h4 class="text-center ml-5">Learn more about your sign! Enter your sign below:</h4>
+					</div>
+					<div class="sign">
+						<input id="userinfo" class="sign-control w-100 ml-4">
+					</div>
+					<div class="sign pt-5">
+					<button type="button" onclick="getInfo()" class="btn btn-dark btn-md">Submit</button>
+					</div>
+				</div>
+
+				<div>
+					<h1 id="yourSign"></h1>
+					<img id="zodiac" src="">
+					<p id="yourCharacter"></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
 	
+
+
+
+
+
+
+
+
+
+
 
 <!-- SCRIPTS -->
 
