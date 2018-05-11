@@ -1,62 +1,62 @@
 
 var zodiac = [
 {
-	sign: "aquarius",
+	sign: "Aquarius",
 	character: "Progressive, Original, Independent, Humanitarian",
 	image: "img/aquarius.png"
 },
 {
-	sign: "aries",
+	sign: "Aries",
 	character: "Courageous, Determined, Confident, Enthusiastic, Optimistic, Honest, Passionate",
 	image: "img/aries.png"
 },
 {
-	sign: "cancer",
+	sign: "Cancer",
 	character: "Tenacious, Highly Imaginative, Loyal, Emotional, Sympathetic, Persuasive",
 	image: "img/cancer.png"
 },
 {
-	sign: "capricorn",
+	sign: "Capricorn",
 	character: "Responsible, Disciplined, has great Self-Control, would be a Great Manager",
 	image: "img/capricorn.png"
 },
 {
-	sign: "gemini",
+	sign: "Gemini",
 	character: "Gentle, Affectionate, Curious, Adaptable, Quick learner",
 	image: "img/gemini.png"
 },
 {
-	sign: "leo",
+	sign: "Leo",
 	character: "Creative, Passionate, Generous, Warm-Hearted, Humorous",
 	image: "img/leo.png"
 },
 {
-	sign: "libra",
+	sign: "Libra",
 	character: "Cooperative, Diplomatic, Gracious, Fair-minded, Social",
 	image: "img/libra.png"
 },
 {
-	sign: "pisces",
+	sign: "Pisces",
 	character: "Compassionate, Artistic, Intuitive, Gentle, Wise, Musical",
 	image: "img/pisces.png"
 },
 {
-	sign: "sagittarius",
+	sign: "Sagittarius",
 	character: "Generous, Idealistic, Humorous",
 	image: "img/sagittarius.png"
 },
 {
-	sign: "scorpio",
+	sign: "Scorpio",
 	character: "Resourceful, Brave, Passionate, Stubborn, a great friend",
 	image: "img/scorpio.png"
 },
 {
-	sign: "taurus",
+	sign: "Taurus",
 	character: "Reliable, Patient, Practical, Devoted, Responible, Stable",
 	image: "img/taurus.png"
 },
 {
-	sign: "virgo",
+	sign: "Virgo",
 	character: "Loyal, Analytical, Kind, Hardworking, Practical",
 	image: "img/virgo.png"
 }
@@ -81,7 +81,7 @@ function getInfo() {
 
 		console.log("current zodiac sign in loop is: " + zodiac[i].sign);
 
-		if(userinfo.value.toLowerCase() === zodiac[i].sign) {
+		if(userinfo.value.toLowerCase() === zodiac[i].sign.toLowerCase()) {
 			console.log("if statement ran");
 
 			console.log("users typed in: " + userinfo.value);
