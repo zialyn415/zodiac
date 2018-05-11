@@ -88,7 +88,7 @@ function getInfo() {
 			console.log("current image value is: " + zodiac[i].image);
 			console.log("current character value is: " + zodiac[i].character);
 
-			document.getElementById("yourSign").textContent = userinfo.value;
+			document.getElementById("yourSign").textContent = zodiac[i].sign;
 
 			document.getElementById("zodiac").src = zodiac[i].image;
 			

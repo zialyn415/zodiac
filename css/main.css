@@ -1,19 +1,63 @@
- /*you need to add shit here to adjust the html and js dumbass*/
- /*div.sign body {
- 	background-color: #1f1f7a;
- }*/
 body {
 	background-color:  #d6d6f5;
+}
+
+.jumbotron {
+	background-color: #d6d6f5;
+}
+.sign img {
+	margin-left: 290px;
 }
 
 #butto {
 	text-align: center;
 }
 
-h1 {
-	font-family: 'Sacramento', cursive;
+.sign h1 {
+	font-family: 'Meddon', cursive;
 }
 
 img#zodiac {
-	max-width: 515px;
+	max-width: 511px;
+	margin-left: 280px;
 }
+
+#yourSign {
+	text-align: center;
+	padding-top: 20px;
+	font-family: 'Meddon', cursive;
+
+}
+
+#yourCharacter {
+	font-family: 'Cinzel Decorative', cursive;
+	text-align: center;
+	padding-top: 15px;
+}
+
+input {
+	margin-left: 7px;
+}
+
+h4 {
+	font-family: 'Cinzel Decorative', cursive;
+	text-align: center;
+}
+/*need to fix the img when it's at tablet size*/
+@media(max-width: 980px;) {
+	.sign img {
+		margin: 0 auto;
+	}
+}
+
+@media(max-width: 400px) {
+	.sign img {
+		margin-left: 5px;
+		width: 340px;
+	}
+
+	img#zodiac {
+		width: 345px;
+	}
+}
+
